@@ -1,0 +1,12 @@
+body{
+    background-color: antiquewhite;
+}
+header{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+.swatches color1{
+    background-color: rgba(255,0,0,.1);
+}
