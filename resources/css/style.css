@@ -7,6 +7,65 @@ header{
     font-weight: bold;
     text-align: center;
 }
-.swatches color1{
-    background-color: rgba(255,0,0,.1);
+.red h3{
+    color: red;
+    font-weight: bold;
 }
+/* Color swatches */
+.swatches{
+    display: flex;
+    font-weight: bold;
+    padding: 4px;
+    text-align: center;
+    margin: 5px;
+    width: 600px; 
+}
+/* Reds */
+.swatches .red-color1{
+    background-color: rgba(255,0,0, 0.1);
+
+}
+.swatches .red-color2{
+    background-color: rgba(255,0,0, 0.3);
+}
+.swatches .red-color3{
+    background-color: rgba(255,0,0, 0.5);
+}
+.swatches .red-color4{
+    background-color: rgba(255,0,0, 0.7);
+}
+.swatches .red-color5{
+    background-color: rgba(255,0,0, 1);
+}
+/*green*/
+.swatches .green-color1{
+    background-color: rgba(0,255,0,0.1);
+}
+.swatches .green-color2{
+    background-color: rgba(0,255,0,0.3);
+}
+.swatches .green-color3{
+    background-color: rgba(0,255,0,0.5);
+}
+.swatches .green-color4{
+    background-color: rgba(0,255,0,0.7);
+}
+.swatches .green-color5{
+    background-color: rgba(0,255,0,1);
+}
+/*blue*/
+.swatches .blue-color1{
+    background-color: rgba(0, 0,255, 0.1);
+}
+.swatches .blue-color2{
+    background-color: rgba(0,0,255,0.3);
+}
+.swatches .blue-color3{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.swatches .blue-color4{
+    background-color: rgba(0, 0, 255, 0.7);
+}.swatches .blue-color5{
+    background-color: rgba(0, 0, 255, 1);
+}
+
